@@ -1,0 +1,23 @@
+{
+  "name": "deltademo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shelwig/deltademo1.git"
+  },
+  "author": "Stephen Helwig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shelwig/deltademo1/issues"
+  },
+  "homepage": "https://github.com/shelwig/deltademo1#readme",
+  "dependencies": {
+    "applicationinsights": "^0.19.0"
+  }
+}
