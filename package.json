@@ -1,23 +1,14 @@
 {
-  "name": "deltademo1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shelwig/deltademo1.git"
-  },
-  "author": "Stephen Helwig",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shelwig/deltademo1/issues"
-  },
-  "homepage": "https://github.com/shelwig/deltademo1#readme",
-  "dependencies": {
-    "applicationinsights": "^0.19.0"
-  }
+    "name": "app-service-hello-world",
+    "description": "Simple Hello World Node.js sample for Azure App Service",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Microsoft",
+    "engines": {
+        "node": ">=6.9.1"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
 }
